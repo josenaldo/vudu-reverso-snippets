@@ -4,7 +4,7 @@
 		"body": [
 			"<section data-markdown=\"slides/${1:nome-do-slide}.md\" data-separator=\"^---\" data-separator-vertical=\"^--\"",
 				"\tdata-separator-notes=\"^Note:\" data-charset=\"utf-8\">",
-			"</section>",
+			"</section>"
 		],
 		"description": "Cria a marcação para um slide markdown"
 	}

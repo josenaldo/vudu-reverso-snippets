@@ -2,7 +2,7 @@
 	"Instance Attruibute": {
 		"prefix": "py_attribute",
 		"body": [
-			"self.__${1:attribute_name} = ${1:attribute_name}",
+			"self.__${1:attribute_name} = ${1:attribute_name}"
 		],
 		"description": "Class instance attribute"
 	},
@@ -12,7 +12,7 @@
 		"body": [
 			"@property",
 			"def ${1:property_name}(self):",
-			"\treturn self.__${1:property_name}",
+			"\treturn self.__${1:property_name}"
 		],
 		"description": "Property getter"
 	},
@@ -26,7 +26,7 @@
 			"",
 			"@${1:property_name}.setter",
 			"def ${1:property_name}(self, ${1:property_name}):",
-			"\tself.__${1:property_name} = ${1:property_name}",
+			"\tself.__${1:property_name} = ${1:property_name}"
 		],
 		"description": "Property setter"
 	}
