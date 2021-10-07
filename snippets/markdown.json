@@ -23,5 +23,5 @@
 			"<!-- .element: class=\"${1}\" -->"
 		],
 		"description": "Comentário com classes a serem aplicadas no elemento"
-	},
+	}
 }

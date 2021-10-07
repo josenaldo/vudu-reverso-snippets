@@ -4,6 +4,7 @@
     "description": "Snippets do Vudu Reverso",
     "publisher": "vudu-reverso",
     "version": "0.0.1",
+    "repository": "https://github.com/josenaldo/vudu-reverso-snippets",
     "engines": {
         "vscode": "^1.60.0"
     },
