@@ -1,0 +1,27 @@
+{
+	"Código Shell": {
+		"prefix": "code-shell",
+		"body": [
+			"```sh",
+			"${1}",
+			"```"
+		],
+		"description": "Código de linha de comando"
+	},
+	"Código Python": {
+		"prefix": "code-python",
+		"body": [
+			"```python",
+			"${1}",
+			"```"
+		],
+		"description": "Código Python"
+	},
+	"Classe do elemento": {
+		"prefix": "element-class",
+		"body": [
+			"<!-- .element: class=\"${1}\" -->"
+		],
+		"description": "Comentário com classes a serem aplicadas no elemento"
+	},
+}
