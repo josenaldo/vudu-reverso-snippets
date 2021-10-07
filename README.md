@@ -46,3 +46,11 @@ momento, nem pra mim.
 ### 0.0.1
 
 Versão inicial, com quase nada além do esqueleto.
+
+## Extras
+
+Para criar o pacote da extensão, no terminal, digite:
+
+```sh
+vsce package
+```
