@@ -2,6 +2,7 @@
     "name": "vudu-reverso-snippets",
     "displayName": "vudu-reverso-snippets",
     "description": "Snippets do Vudu Reverso",
+    "publisher": "vudu-reverso",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.60.0"
