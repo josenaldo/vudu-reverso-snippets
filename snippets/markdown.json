@@ -23,5 +23,15 @@
 			"<!-- .element: class=\"${1}\" -->"
 		],
 		"description": "Comentário com classes a serem aplicadas no elemento"
+	},
+	"Item do plano de estudo": {
+		"prefix": "pde-item",
+		"body": [
+			"- [ ] [${1:Título}](${2:URL})",
+			"  - Tipo: ${3|Curso,Artigo,Vídeo,Podcast,Tutorial|}",
+			"  - Idioma: ${4|Português,Inglês,Espanhol|}",
+			"  - Pago: ${5|Sim,Não|}",
+			"  - Data de conclusão: ${6:$CURRENT_DATE/$CURRENT_MONTH/$CURRENT_YEAR } "
+		]
 	}
 }
