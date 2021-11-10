@@ -1,6 +1,6 @@
 {
 	"Instance Attruibute": {
-		"prefix": "py_attribute",
+		"prefix": "py_attr",
 		"body": [
 			"self.__${1:attribute_name} = ${1:attribute_name}"
 		],
@@ -8,7 +8,7 @@
 	},
 
 	"Property Getter": {
-		"prefix": "py_property_getter",
+		"prefix": "py_prop",
 		"body": [
 			"@property",
 			"def ${1:property_name}(self):",
@@ -18,7 +18,7 @@
 	},
 
 	"Property Setter": {
-		"prefix": "py_property_setter",
+		"prefix": "py_props",
 		"body": [
 			"@property",
 			"def ${1:property_name}(self):",
@@ -29,5 +29,18 @@
 			"\tself.__${1:property_name} = ${1:property_name}"
 		],
 		"description": "Property setter"
+	},
+
+	"Try-Except-Traceback": {
+		"prefix": "py_trace",
+		"body": [
+			"import traceback  # noqa E402",
+			"",
+			"try:",
+			"    ${1:code}",
+			"except ${2:Exception}:",
+			"    traceback.print_exc()"
+		],
+		"description": "Code with error catching for prevent notebook crash"
 	}
 }
